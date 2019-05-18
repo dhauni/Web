@@ -1,0 +1,24 @@
+.nav li:hover{
+ background-color:orange;
+}
+.nav li{
+padding:15px;
+display:inline;
+}
+.nav li a{
+color:black;
+text-decoration:none;
+}
+body:not(#body){
+background:linear-gradient(red,#5F009F);
+}
+
+#img li{
+display:inline;
+padding:15px;
+}
+#img li img{
+height:200px;
+width:20%;
+
+}

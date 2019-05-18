@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Form</title>
+		<link rel="stylesheet" type="text/css" href="style.css" > 
+	</head>
+	<body>
+	<div id=nav>
+		<ul class=nav>
+		     <li><a href="Home.html" ><img src="img/hom.png" alt="Home" height="25px" width="25px"></a></li>
+			 <li><a href="About.html" >About</a></li>
+			 <li><a href="Contact.html" >Contact</a></li>
+			 <li><a href="Gallery.html">Gallery</a></li>
+		</ul>	 
+		</div>
+		<form method="post">
+			<table border="1" cellspacing="0">
+				<tr>
+					<th colspan="2">Form</th>
+				</tr>
+				<tr>
+					<th>Name</th>
+					<td><input type="text" name="UserName" placeholder="Full Name"></td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><input type="text" name="Usermail" placeholder="eg.kjiodfc@gmail.com"></td>
+				</tr>
+				<tr>
+					<th>Password</th>
+					<td><input type="password" name="password" placeholder="*********"></td>
+				</tr>	
+				<tr>
+					<th>Country</th>
+					<td cellpadding="center">
+						<select name="user country">
+							<option>-----------Select-----------</option>
+							<option value="India">India</option>
+							<option value="Australia">China</option>
+							<option value="China">Japan</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>Message</th>
+					<td><textarea name="message" rows="5" col="5"></textarea></td>
+				</tr>
+				<td colspan="2"><input type="submit" name="subtn" value="save"></td>
+				
+			</table>
+		</form>
+	</body>
+</html>

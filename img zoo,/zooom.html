@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>imagezoom</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <style>
+    .container { margin:150px auto; max-width:600px;}
+    </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <h1>jquery.imagezoom </h1>
+    <div data-zoom="https://unsplash.it/2000/2400?image=628" class="zoom" style="max-width: 600px; border: 1px solid black; overflow: hidden;">
+      <img src="https://unsplash.it/506/613?image=628" />
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="jquery.imagezoom.js"></script>
+    <script>
+      $('.zoom').zoom();
+    </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+  </html>
